@@ -1,0 +1,77 @@
+[
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.3333333333333333
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.3333333333333333
+  },
+  {
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.3333333333333333
+  },
+  {
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.43333333333333335
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.43333333333333335
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.43333333333333335
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.4
+  },
+  {
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.4
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.4
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.26666666666666666
+  },
+  {
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.26666666666666666
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.26666666666666666
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.23333333333333334
+  },
+  {
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.23333333333333334
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.23333333333333334
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "expression": "sub(ARG3, -0.8965872217872166)",
+    "features_used": 1,
+    "metric": 1.4955013154617502
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 11.282534593497484
+  },
+  {
+    "expression": "mul(0.0417417918035885, ARG6)",
+    "features_used": 1,
+    "metric": 1.7368740478066973
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 11.94396252736778
+  },
+  {
+    "expression": "neg(sub(sub(ARG2, ARG3), ARG2))",
+    "features_used": 3,
+    "metric": 2.436071816817521
+  },
+  {
+    "expression": "neg(neg(ARG3))",
+    "features_used": 1,
+    "metric": 2.436071816817521
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 11.370352298096725
+  },
+  {
+    "expression": "sub(ARG3, -0.8879975567935805)",
+    "features_used": 1,
+    "metric": 1.6161944962767354
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 12.236044713353207
+  },
+  {
+    "expression": "neg(neg(ARG3))",
+    "features_used": 1,
+    "metric": 2.2738184304864952
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 10.960638303919271
+  }
+]
