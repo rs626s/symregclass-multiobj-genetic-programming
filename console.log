@@ -1,0 +1,108 @@
+
+Running on dataset: Diabetes
+
+Top GP Models:
+Model 1:
+  Expression: add(sub(neg(neg(add(ARG4, 0.33479956223845875))), mul(mul(neg(ARG1), mul(ARG6, 0.7175617167957999)), sub(sub(ARG6, ARG2), sub(ARG3, -0.7844726422042625)))), sub(0.9054687653372451, -0.6592529951020298))
+  Features used: 6
+Model 2:
+  Expression: add(sub(neg(neg(add(ARG4, 0.33479956223845875))), ARG1), sub(0.9054687653372451, -0.6592529951020298))
+  Features used: 2
+Model 3:
+  Expression: add(sub(neg(neg(0.33479956223845875)), ARG1), sub(0.9054687653372451, -0.6592529951020298))
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: MSE = 6733.5571
+  Random Forest: MSE = 3416.4772
+  Linear Regression: MSE = 2993.0813
+
+Running on dataset: California
+
+Top GP Models:
+Model 1:
+  Expression: neg(neg(add(ARG3, 0.9848899730731708)))
+  Features used: 1
+Model 2:
+  Expression: add(ARG3, ARG3)
+  Features used: 2
+Model 3:
+  Expression: neg(ARG3)
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: MSE = 0.6245
+  Random Forest: MSE = 0.3080
+  Linear Regression: MSE = 0.5494
+
+Running on dataset: Iris
+
+Top GP Models:
+Model 1:
+  Expression: neg(ARG1)
+  Features used: 1
+Model 2:
+  Expression: neg(ARG2)
+  Features used: 1
+Model 3:
+  Expression: neg(ARG3)
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: Accuracy = 0.9533
+  Random Forest: Accuracy = 0.9600
+  Logistic Regression: Accuracy = 0.9733
+
+Running on dataset: Wine
+
+Top GP Models:
+Model 1:
+  Expression: neg(ARG4)
+  Features used: 1
+Model 2:
+  Expression: neg(ARG2)
+  Features used: 1
+Model 3:
+  Expression: neg(ARG10)
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: Accuracy = 0.9043
+  Random Forest: Accuracy = 0.9778
+  Logistic Regression: Accuracy = 0.9611
+
+Running on dataset: Digits
+
+Top GP Models:
+Model 1:
+  Expression: neg(ARG7)
+  Features used: 1
+Model 2:
+  Expression: neg(ARG16)
+  Features used: 1
+Model 3:
+  Expression: neg(ARG56)
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: Accuracy = 0.7830
+  Random Forest: Accuracy = 0.9388
+  Logistic Regression: Accuracy = 0.9143
+
+Running on dataset: BreastCancer
+
+Top GP Models:
+Model 1:
+  Expression: neg(ARG12)
+  Features used: 1
+Model 2:
+  Expression: neg(ARG10)
+  Features used: 1
+Model 3:
+  Expression: neg(ARG11)
+  Features used: 1
+
+Baseline comparisons:
+  Decision Tree: Accuracy = 0.9209
+  Random Forest: Accuracy = 0.9614
+  Logistic Regression: Accuracy = 0.9526
