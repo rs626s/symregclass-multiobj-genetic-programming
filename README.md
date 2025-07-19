@@ -68,7 +68,6 @@ Example JSON output (in `results/Diabetes_results.json`):
 [
   {
     "expression": "add(ARG0, mul(ARG3, ARG5))",
-    "accuracy": null,
     "mse": 38.27,
     "features_used": 3
   },
