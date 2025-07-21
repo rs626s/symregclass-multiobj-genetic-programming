@@ -8,6 +8,7 @@ from sklearn.model_selection import cross_val_score                             
 from sklearn.linear_model import LinearRegression, LogisticRegression               #Import linear models for regression and classification
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor              #Import tree-based models
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor          #Random Forest models
+from src.feature_usage import count_features_used                                   #Import the function
 
 def evaluate_model(pareto_front, X_test, y_test, task_type, toolbox):
     results = []                                                                    #Store evaluation results for each individual
@@ -29,7 +30,7 @@ def evaluate_model(pareto_front, X_test, y_test, task_type, toolbox):
             metric = accuracy_score(y_test, predictions)                            #Use Accuracy for classification
 
         expr = str(ind)                                                             #Convert individual expression to string
-        features_used = sum(('ARG' in token or 'x' in token) for token in expr.split()) #Count number of input features used in the expression
+        features_used = count_features_used(ind)                                    #Count number of input features used in the expression
         results.append({
             "expression": expr,
             "features_used": features_used,
