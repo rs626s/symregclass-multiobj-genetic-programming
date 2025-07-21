@@ -14,7 +14,6 @@ mogp-symgregclass/
 ├── src/
 │   ├── baseline.py             # Baseline model evaluations (e.g., Linear, Random Forest, SVM)
 │   ├── evaluator.py            # Evaluation functions for individuals and models
-│   ├── extractor.py            # Expression tree parsing and feature usage analysis
 │   ├── feature_usage.py        # Counts feature usage in GP expressions
 │   ├── gp_model.py             # GP class implementing DEAP NSGA-II logic
 │   ├── loader.py               # Dataset loading and preprocessing
