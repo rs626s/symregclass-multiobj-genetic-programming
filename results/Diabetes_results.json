@@ -1,38 +1,18 @@
 [
   {
-    "expression": "add(sub(ARG2, -0.6207224069999884), sub(ARG2, -0.6207224069999884))",
-    "features_used": 1,
-    "metric": 26185.02614553329
+    "expression": "sub(sub(0.4533836229677064, sub(ARG6, ARG3)), -0.9521885996521855)",
+    "features_used": 2,
+    "metric": 26137.432517165435
   },
   {
-    "expression": "add(ARG2, sub(sub(ARG2, -0.6207224069999884), -0.6207224069999884))",
+    "expression": "sub(sub(0.4533836229677064, ARG6), -0.9521885996521855)",
     "features_used": 1,
-    "metric": 26185.02614553329
+    "metric": 26138.75387595244
   },
   {
-    "expression": "add(0.48296862735800206, sub(ARG2, -0.6207224069999884))",
+    "expression": "sub(ARG8, -0.9521885996521855)",
     "features_used": 1,
-    "metric": 26226.442486229855
-  },
-  {
-    "expression": "add(sub(ARG2, -0.6207224069999884), 0.48296862735800206)",
-    "features_used": 1,
-    "metric": 26226.442486229855
-  },
-  {
-    "expression": "neg(sub(-0.9810353641126652, ARG8))",
-    "features_used": 1,
-    "metric": 26260.721245126337
-  },
-  {
-    "expression": "add(ARG2, 0.48296862735800206)",
-    "features_used": 1,
-    "metric": 26406.438123771884
-  },
-  {
-    "expression": "add(0.48296862735800206, ARG2)",
-    "features_used": 1,
-    "metric": 26406.438123771884
+    "metric": 26269.076046524606
   },
   {
     "expression": "neg(ARG6)",
@@ -40,19 +20,19 @@
     "metric": 26546.584641047404
   },
   {
-    "expression": "sub(neg(-0.8753018459554958), sub(ARG1, neg(-0.8753018459554958)))",
+    "expression": "add(0.9603157922079868, add(add(0.29172915947524936, ARG6), 0.9603157922079868))",
     "features_used": 1,
-    "metric": 32077.135538602055
+    "metric": 31933.394506974888
   },
   {
-    "expression": "sub(ARG2, sub(-0.2685541384515242, neg(-0.8753018459554958)))",
+    "expression": "add(0.9603157922079868, add(ARG1, 0.9603157922079868))",
     "features_used": 1,
-    "metric": 32268.20825301847
+    "metric": 32022.580500613793
   },
   {
-    "expression": "sub(ARG2, -0.8753018459554958)",
+    "expression": "add(0.9603157922079868, ARG2)",
     "features_used": 1,
-    "metric": 32354.94307381488
+    "metric": 32327.47055071764
   },
   {
     "expression": "neg(ARG6)",
@@ -60,49 +40,54 @@
     "metric": 32638.547166113112
   },
   {
-    "expression": "sub(sub(0.47650113366263613, neg(0.8111540161720905)), add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
+    "expression": "neg(add(add(0.5789520618809767, -0.8842505586254017), add(-0.8842505586254017, ARG1)))",
     "features_used": 1,
-    "metric": 29945.420242768767
+    "metric": 30486.98319620547
   },
   {
-    "expression": "sub(0.7149112278336884, add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
-    "features_used": 1,
-    "metric": 30125.05491361965
+    "expression": "sub(ARG3, sub(ARG6, sub(0.9466520225309365, ARG6)))",
+    "features_used": 2,
+    "metric": 30551.14746524561
   },
   {
-    "expression": "neg(add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
+    "expression": "add(0.9326092173092679, ARG5)",
     "features_used": 1,
-    "metric": 30350.19931548814
+    "metric": 30566.908979533866
   },
   {
-    "expression": "sub(sub(neg(-0.534881484186656), ARG1), neg(0.8111540161720905))",
+    "expression": "neg(ARG6)",
     "features_used": 1,
-    "metric": 30437.47865951541
+    "metric": 30860.73050587
   },
   {
-    "expression": "sub(sub(0.47650113366263613, neg(0.8111540161720905)), ARG1)",
-    "features_used": 1,
-    "metric": 30455.941574521014
+    "expression": "sub(0.08201823112193107, add(-0.7171996752694754, add(-0.7171996752694754, add(-0.7171996752694754, sub(ARG1, ARG8)))))",
+    "features_used": 2,
+    "metric": 29484.959130390514
   },
   {
-    "expression": "sub(ARG1, neg(0.8111540161720905))",
-    "features_used": 1,
-    "metric": 30607.211207193242
+    "expression": "sub(0.08201823112193107, add(-0.7171996752694754, add(-0.7171996752694754, sub(ARG1, ARG8))))",
+    "features_used": 2,
+    "metric": 29701.86775263016
   },
   {
-    "expression": "add(ARG7, 0.7149112278336884)",
+    "expression": "neg(add(-0.7171996752694754, sub(ARG1, 0.23772604706777334)))",
     "features_used": 1,
-    "metric": 30634.069181530896
+    "metric": 29877.31607145227
   },
   {
-    "expression": "neg(ARG1)",
+    "expression": "neg(add(-0.7171996752694754, ARG6))",
     "features_used": 1,
-    "metric": 30864.89859382532
+    "metric": 29942.768415175782
   },
   {
-    "expression": "add(ARG7, 0.9555463010983893)",
+    "expression": "neg(add(-0.7171996752694754, neg(ARG8)))",
     "features_used": 1,
-    "metric": 29869.590937932782
+    "metric": 29943.19022826244
+  },
+  {
+    "expression": "add(ARG5, 0.23772604706777334)",
+    "features_used": 1,
+    "metric": 30094.13359810882
   },
   {
     "expression": "neg(ARG6)",
@@ -110,24 +95,29 @@
     "metric": 30161.84223635509
   },
   {
-    "expression": "sub(neg(add(-0.7441999310290233, add(-0.7441999310290233, ARG6))), -0.7441999310290233)",
-    "features_used": 1,
-    "metric": 24519.029495277442
+    "expression": "add(neg(sub(-0.6909125130294056, 0.7881848339659239)), add(add(add(ARG3, ARG8), neg(ARG3)), neg(add(-0.022269415311645613, sub(-0.6909125130294056, 0.7881848339659239)))))",
+    "features_used": 2,
+    "metric": 24309.89966367692
   },
   {
-    "expression": "neg(add(-0.7441999310290233, add(-0.7441999310290233, ARG6)))",
-    "features_used": 1,
-    "metric": 24724.383880111258
+    "expression": "add(neg(sub(-0.6909125130294056, 0.7881848339659239)), add(add(add(ARG3, ARG8), neg(ARG3)), neg(-0.706261586285944)))",
+    "features_used": 2,
+    "metric": 24528.137467986988
   },
   {
-    "expression": "sub(ARG6, -0.7441999310290233)",
-    "features_used": 1,
-    "metric": 24927.465623387274
+    "expression": "add(neg(sub(-0.6909125130294056, 0.7881848339659239)), add(add(add(ARG3, ARG8), neg(ARG3)), 0.015952737969192388))",
+    "features_used": 2,
+    "metric": 24718.63652188658
   },
   {
-    "expression": "neg(add(-0.7441999310290233, ARG6))",
+    "expression": "add(neg(sub(-0.6909125130294056, 0.7881848339659239)), ARG8)",
     "features_used": 1,
-    "metric": 24930.84593201976
+    "metric": 24723.050139173338
+  },
+  {
+    "expression": "add(0.7881848339659239, ARG8)",
+    "features_used": 1,
+    "metric": 24914.69212864678
   },
   {
     "expression": "neg(ARG6)",

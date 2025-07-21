@@ -1,8 +1,8 @@
 [
   {
-    "expression": "add(0.3555775658135203, ARG3)",
+    "expression": "mul(0.061195624727767406, ARG6)",
     "features_used": 1,
-    "metric": 1.8455502600676168
+    "metric": 1.3127601488122218
   },
   {
     "expression": "neg(ARG3)",
@@ -10,9 +10,14 @@
     "metric": 11.282534593497484
   },
   {
-    "expression": "add(ARG3, 0.7339860028806484)",
+    "expression": "sub(ARG3, add(-0.9700215605524987, 0.06489032980466658))",
     "features_used": 1,
-    "metric": 2.0290467485841814
+    "metric": 1.997506229407185
+  },
+  {
+    "expression": "mul(0.43101726778656646, ARG2)",
+    "features_used": 1,
+    "metric": 3.1167684164263836
   },
   {
     "expression": "neg(ARG3)",
@@ -20,14 +25,14 @@
     "metric": 11.94396252736778
   },
   {
-    "expression": "add(ARG3, add(0.37950715023543014, ARG3))",
+    "expression": "neg(sub(-0.9185928061650004, ARG3))",
     "features_used": 1,
-    "metric": 2.1244981631712174
+    "metric": 1.5557372023052927
   },
   {
-    "expression": "neg(neg(ARG3))",
+    "expression": "add(ARG3, 0.6292561932333964)",
     "features_used": 1,
-    "metric": 2.436071816817521
+    "metric": 1.6509564672637123
   },
   {
     "expression": "neg(ARG3)",
@@ -35,24 +40,9 @@
     "metric": 11.370352298096725
   },
   {
-    "expression": "add(sub(add(ARG1, ARG3), add(-0.7267722667911738, ARG1)), 0.44945852187362645)",
-    "features_used": 2,
-    "metric": 1.5626728803599987
-  },
-  {
-    "expression": "add(sub(add(ARG1, ARG3), add(-0.7267722667911738, ARG1)), neg(mul(sub(ARG5, ARG5), neg(-0.8738730237185133))))",
-    "features_used": 3,
-    "metric": 1.7185962699466115
-  },
-  {
-    "expression": "sub(neg(-0.6889651809075905), sub(sub(ARG6, ARG3), ARG6))",
-    "features_used": 2,
-    "metric": 1.7501341646299928
-  },
-  {
-    "expression": "add(ARG3, 0.44945852187362645)",
+    "expression": "add(ARG3, 0.821588514762529)",
     "features_used": 1,
-    "metric": 2.016344189925726
+    "metric": 1.6520773498305612
   },
   {
     "expression": "neg(ARG3)",
@@ -60,14 +50,19 @@
     "metric": 12.236044713353207
   },
   {
-    "expression": "add(mul(0.7511942837425101, ARG3), neg(mul(-0.3956973130563537, x0)))",
+    "expression": "sub(0.7645292896285736, mul(ARG2, -0.2656790654864081))",
     "features_used": 1,
-    "metric": 0.7640855642350999
+    "metric": 1.2904909724118858
   },
   {
-    "expression": "add(ARG3, 0.7511942837425101)",
+    "expression": "neg(sub(-0.5334048042997883, ARG3))",
     "features_used": 1,
-    "metric": 1.4145339780064976
+    "metric": 1.5474914696656532
+  },
+  {
+    "expression": "mul(0.7645292896285736, ARG0)",
+    "features_used": 1,
+    "metric": 2.0026061064909046
   },
   {
     "expression": "neg(ARG3)",
