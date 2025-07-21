@@ -1,46 +1,6 @@
 [
   {
-    "expression": "neg(ARG5)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG6)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG8)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG4)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG11)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG2)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG7)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
     "expression": "neg(ARG1)",
-    "features_used": 1,
-    "metric": 0.3888888888888889
-  },
-  {
-    "expression": "neg(ARG12)",
     "features_used": 1,
     "metric": 0.3888888888888889
   },
@@ -50,24 +10,54 @@
     "metric": 0.3888888888888889
   },
   {
-    "expression": "neg(ARG3)",
+    "expression": "neg(ARG8)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG6)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG5)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG4)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG11)",
     "features_used": 1,
     "metric": 0.3888888888888889
   },
   {
     "expression": "neg(ARG3)",
     "features_used": 1,
-    "metric": 0.3333333333333333
+    "metric": 0.3888888888888889
   },
   {
-    "expression": "neg(ARG11)",
+    "expression": "neg(ARG2)",
     "features_used": 1,
-    "metric": 0.3333333333333333
+    "metric": 0.3888888888888889
   },
   {
-    "expression": "neg(ARG8)",
+    "expression": "neg(ARG12)",
     "features_used": 1,
-    "metric": 0.3333333333333333
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
+  },
+  {
+    "expression": "neg(ARG9)",
+    "features_used": 1,
+    "metric": 0.3888888888888889
   },
   {
     "expression": "neg(ARG7)",
@@ -75,7 +65,17 @@
     "metric": 0.3333333333333333
   },
   {
-    "expression": "neg(ARG4)",
+    "expression": "neg(ARG2)",
+    "features_used": 1,
+    "metric": 0.3333333333333333
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.3333333333333333
+  },
+  {
+    "expression": "neg(ARG3)",
     "features_used": 1,
     "metric": 0.3333333333333333
   },
@@ -95,12 +95,7 @@
     "metric": 0.3333333333333333
   },
   {
-    "expression": "neg(ARG1)",
-    "features_used": 1,
-    "metric": 0.3333333333333333
-  },
-  {
-    "expression": "neg(ARG2)",
+    "expression": "neg(ARG4)",
     "features_used": 1,
     "metric": 0.3333333333333333
   },
@@ -110,17 +105,22 @@
     "metric": 0.3333333333333333
   },
   {
-    "expression": "neg(ARG10)",
+    "expression": "neg(ARG11)",
     "features_used": 1,
     "metric": 0.3333333333333333
   },
   {
-    "expression": "neg(ARG11)",
+    "expression": "neg(ARG8)",
     "features_used": 1,
-    "metric": 0.2777777777777778
+    "metric": 0.3333333333333333
   },
   {
-    "expression": "neg(ARG10)",
+    "expression": "neg(neg(ARG5))",
+    "features_used": 1,
+    "metric": 0.25
+  },
+  {
+    "expression": "neg(ARG9)",
     "features_used": 1,
     "metric": 0.2777777777777778
   },
@@ -130,22 +130,17 @@
     "metric": 0.2777777777777778
   },
   {
-    "expression": "neg(ARG1)",
+    "expression": "neg(ARG10)",
+    "features_used": 1,
+    "metric": 0.2777777777777778
+  },
+  {
+    "expression": "neg(ARG6)",
     "features_used": 1,
     "metric": 0.2777777777777778
   },
   {
     "expression": "neg(ARG4)",
-    "features_used": 1,
-    "metric": 0.2777777777777778
-  },
-  {
-    "expression": "neg(ARG9)",
-    "features_used": 1,
-    "metric": 0.2777777777777778
-  },
-  {
-    "expression": "neg(ARG8)",
     "features_used": 1,
     "metric": 0.2777777777777778
   },
@@ -155,6 +150,11 @@
     "metric": 0.2777777777777778
   },
   {
+    "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.2777777777777778
+  },
+  {
     "expression": "neg(ARG5)",
     "features_used": 1,
     "metric": 0.2777777777777778
@@ -165,42 +165,22 @@
     "metric": 0.2777777777777778
   },
   {
-    "expression": "neg(ARG7)",
+    "expression": "neg(ARG8)",
     "features_used": 1,
     "metric": 0.2777777777777778
-  },
-  {
-    "expression": "neg(ARG6)",
-    "features_used": 1,
-    "metric": 0.2777777777777778
-  },
-  {
-    "expression": "neg(ARG7)",
-    "features_used": 1,
-    "metric": 0.34285714285714286
-  },
-  {
-    "expression": "neg(ARG4)",
-    "features_used": 1,
-    "metric": 0.34285714285714286
-  },
-  {
-    "expression": "neg(ARG9)",
-    "features_used": 1,
-    "metric": 0.34285714285714286
-  },
-  {
-    "expression": "neg(ARG10)",
-    "features_used": 1,
-    "metric": 0.34285714285714286
-  },
-  {
-    "expression": "neg(ARG6)",
-    "features_used": 1,
-    "metric": 0.34285714285714286
   },
   {
     "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.2777777777777778
+  },
+  {
+    "expression": "mul(ARG10, ARG10)",
+    "features_used": 2,
+    "metric": 0.3055555555555556
+  },
+  {
+    "expression": "neg(ARG12)",
     "features_used": 1,
     "metric": 0.34285714285714286
   },
@@ -210,12 +190,22 @@
     "metric": 0.34285714285714286
   },
   {
-    "expression": "neg(ARG12)",
+    "expression": "neg(ARG9)",
     "features_used": 1,
     "metric": 0.34285714285714286
   },
   {
-    "expression": "neg(ARG11)",
+    "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG10)",
+    "features_used": 1,
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG1)",
     "features_used": 1,
     "metric": 0.34285714285714286
   },
@@ -230,9 +220,64 @@
     "metric": 0.34285714285714286
   },
   {
-    "expression": "neg(neg(ARG11))",
+    "expression": "neg(ARG4)",
     "features_used": 1,
-    "metric": 0.2
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG6)",
+    "features_used": 1,
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG3)",
+    "features_used": 1,
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG11)",
+    "features_used": 1,
+    "metric": 0.34285714285714286
+  },
+  {
+    "expression": "neg(ARG12)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG6)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG4)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG8)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG10)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
+  },
+  {
+    "expression": "neg(ARG9)",
+    "features_used": 1,
+    "metric": 0.3142857142857143
   },
   {
     "expression": "neg(ARG3)",
@@ -246,51 +291,6 @@
   },
   {
     "expression": "neg(ARG2)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG9)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG1)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG6)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG8)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG10)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG4)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG11)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG12)",
-    "features_used": 1,
-    "metric": 0.3142857142857143
-  },
-  {
-    "expression": "neg(ARG7)",
     "features_used": 1,
     "metric": 0.3142857142857143
   }

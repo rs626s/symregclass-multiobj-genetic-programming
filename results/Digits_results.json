@@ -1,51 +1,46 @@
 [
   {
-    "expression": "neg(ARG23)",
-    "features_used": 1,
-    "metric": 0.09166666666666666
-  },
-  {
-    "expression": "neg(ARG47)",
-    "features_used": 1,
-    "metric": 0.09166666666666666
-  },
-  {
     "expression": "neg(ARG57)",
     "features_used": 1,
     "metric": 0.09166666666666666
   },
   {
-    "expression": "neg(ARG15)",
-    "features_used": 1,
-    "metric": 0.09166666666666666
-  },
-  {
-    "expression": "neg(ARG55)",
-    "features_used": 1,
-    "metric": 0.09166666666666666
-  },
-  {
-    "expression": "neg(ARG31)",
-    "features_used": 1,
-    "metric": 0.09166666666666666
-  },
-  {
-    "expression": "add(ARG55, ARG57)",
-    "features_used": 2,
-    "metric": 0.10555555555555556
-  },
-  {
     "expression": "neg(ARG47)",
     "features_used": 1,
-    "metric": 0.09444444444444444
+    "metric": 0.09166666666666666
   },
   {
-    "expression": "neg(ARG31)",
+    "expression": "neg(ARG63)",
     "features_used": 1,
-    "metric": 0.09444444444444444
+    "metric": 0.09166666666666666
+  },
+  {
+    "expression": "neg(ARG8)",
+    "features_used": 1,
+    "metric": 0.09166666666666666
+  },
+  {
+    "expression": "neg(ARG23)",
+    "features_used": 1,
+    "metric": 0.09166666666666666
   },
   {
     "expression": "neg(ARG40)",
+    "features_used": 1,
+    "metric": 0.09166666666666666
+  },
+  {
+    "expression": "sub(ARG57, ARG23)",
+    "features_used": 2,
+    "metric": 0.10277777777777777
+  },
+  {
+    "expression": "neg(neg(ARG57))",
+    "features_used": 1,
+    "metric": 0.10277777777777777
+  },
+  {
+    "expression": "neg(ARG31)",
     "features_used": 1,
     "metric": 0.09444444444444444
   },
@@ -56,6 +51,11 @@
   },
   {
     "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.09444444444444444
+  },
+  {
+    "expression": "neg(ARG48)",
     "features_used": 1,
     "metric": 0.09444444444444444
   },
@@ -65,14 +65,14 @@
     "metric": 0.09444444444444444
   },
   {
-    "expression": "add(ARG7, ARG6)",
+    "expression": "add(ARG7, ARG57)",
     "features_used": 2,
-    "metric": 0.1111111111111111
+    "metric": 0.10555555555555556
   },
   {
-    "expression": "add(ARG16, ARG6)",
+    "expression": "add(ARG57, ARG7)",
     "features_used": 2,
-    "metric": 0.1111111111111111
+    "metric": 0.10555555555555556
   },
   {
     "expression": "neg(ARG48)",
@@ -80,17 +80,17 @@
     "metric": 0.09192200557103064
   },
   {
-    "expression": "neg(ARG7)",
+    "expression": "neg(ARG23)",
     "features_used": 1,
     "metric": 0.09192200557103064
   },
   {
-    "expression": "neg(ARG31)",
+    "expression": "neg(ARG55)",
     "features_used": 1,
     "metric": 0.09192200557103064
   },
   {
-    "expression": "neg(ARG47)",
+    "expression": "neg(ARG40)",
     "features_used": 1,
     "metric": 0.09192200557103064
   },
@@ -100,22 +100,27 @@
     "metric": 0.09192200557103064
   },
   {
+    "expression": "neg(ARG31)",
+    "features_used": 1,
+    "metric": 0.09192200557103064
+  },
+  {
+    "expression": "neg(ARG16)",
+    "features_used": 1,
+    "metric": 0.09192200557103064
+  },
+  {
     "expression": "neg(ARG63)",
     "features_used": 1,
     "metric": 0.09192200557103064
   },
   {
-    "expression": "neg(neg(ARG6))",
-    "features_used": 1,
-    "metric": 0.116991643454039
+    "expression": "add(ARG1, ARG6)",
+    "features_used": 2,
+    "metric": 0.1392757660167131
   },
   {
-    "expression": "neg(ARG47)",
-    "features_used": 1,
-    "metric": 0.0947075208913649
-  },
-  {
-    "expression": "neg(ARG8)",
+    "expression": "neg(ARG55)",
     "features_used": 1,
     "metric": 0.0947075208913649
   },
@@ -125,27 +130,42 @@
     "metric": 0.0947075208913649
   },
   {
-    "expression": "neg(ARG40)",
+    "expression": "neg(ARG7)",
     "features_used": 1,
     "metric": 0.0947075208913649
   },
   {
-    "expression": "neg(ARG31)",
+    "expression": "neg(ARG15)",
     "features_used": 1,
     "metric": 0.0947075208913649
   },
   {
-    "expression": "add(ARG6, ARG1)",
+    "expression": "add(ARG55, ARG1)",
     "features_used": 2,
-    "metric": 0.1532033426183844
+    "metric": 0.11420612813370473
   },
   {
-    "expression": "neg(ARG56)",
+    "expression": "add(ARG1, ARG55)",
+    "features_used": 2,
+    "metric": 0.11420612813370473
+  },
+  {
+    "expression": "neg(ARG23)",
     "features_used": 1,
     "metric": 0.12256267409470752
   },
   {
-    "expression": "neg(ARG23)",
+    "expression": "neg(ARG15)",
+    "features_used": 1,
+    "metric": 0.12256267409470752
+  },
+  {
+    "expression": "neg(ARG7)",
+    "features_used": 1,
+    "metric": 0.12256267409470752
+  },
+  {
+    "expression": "neg(ARG16)",
     "features_used": 1,
     "metric": 0.12256267409470752
   },
@@ -155,7 +175,7 @@
     "metric": 0.12256267409470752
   },
   {
-    "expression": "neg(ARG55)",
+    "expression": "neg(ARG56)",
     "features_used": 1,
     "metric": 0.12256267409470752
   },
@@ -165,13 +185,28 @@
     "metric": 0.12256267409470752
   },
   {
-    "expression": "neg(ARG15)",
+    "expression": "neg(ARG55)",
     "features_used": 1,
     "metric": 0.12256267409470752
   },
   {
-    "expression": "add(ARG6, ARG57)",
-    "features_used": 2,
+    "expression": "add(sub(ARG57, ARG56), ARG6)",
+    "features_used": 3,
     "metric": 0.1615598885793872
+  },
+  {
+    "expression": "add(sub(ARG57, ARG40), ARG6)",
+    "features_used": 3,
+    "metric": 0.1615598885793872
+  },
+  {
+    "expression": "add(sub(ARG57, ARG15), ARG6)",
+    "features_used": 3,
+    "metric": 0.16434540389972144
+  },
+  {
+    "expression": "add(ARG55, ARG6)",
+    "features_used": 2,
+    "metric": 0.16434540389972144
   }
 ]

@@ -1,8 +1,13 @@
 [
   {
-    "expression": "sub(ARG3, -0.8965872217872166)",
+    "expression": "neg(mul(neg(neg(-0.04335688590129383)), sub(sub(ARG6, ARG2), neg(x0))))",
+    "features_used": 3,
+    "metric": 1.5514477720374786
+  },
+  {
+    "expression": "add(ARG3, 0.6603990303622647)",
     "features_used": 1,
-    "metric": 1.4955013154617502
+    "metric": 1.5763266978056116
   },
   {
     "expression": "neg(ARG3)",
@@ -10,9 +15,14 @@
     "metric": 11.282534593497484
   },
   {
-    "expression": "mul(0.0417417918035885, ARG6)",
+    "expression": "neg(neg(ARG3))",
     "features_used": 1,
-    "metric": 1.7368740478066973
+    "metric": 2.8286673913971354
+  },
+  {
+    "expression": "sub(ARG3, neg(ARG3))",
+    "features_used": 2,
+    "metric": 3.584489106542687
   },
   {
     "expression": "neg(ARG3)",
@@ -20,14 +30,14 @@
     "metric": 11.94396252736778
   },
   {
-    "expression": "neg(sub(sub(ARG2, ARG3), ARG2))",
-    "features_used": 3,
-    "metric": 2.436071816817521
+    "expression": "neg(sub(-0.8266598971111567, ARG3))",
+    "features_used": 1,
+    "metric": 1.5678439765259455
   },
   {
-    "expression": "neg(neg(ARG3))",
+    "expression": "mul(0.2063935750076753, ARG2)",
     "features_used": 1,
-    "metric": 2.436071816817521
+    "metric": 2.1851256904009055
   },
   {
     "expression": "neg(ARG3)",
@@ -35,9 +45,19 @@
     "metric": 11.370352298096725
   },
   {
-    "expression": "sub(ARG3, -0.8879975567935805)",
+    "expression": "sub(ARG3, neg(ARG3))",
+    "features_used": 2,
+    "metric": 1.7111319944964578
+  },
+  {
+    "expression": "sub(ARG3, neg(neg(-0.17931178557026528)))",
     "features_used": 1,
-    "metric": 1.6161944962767354
+    "metric": 2.4542916544603743
+  },
+  {
+    "expression": "neg(neg(ARG3))",
+    "features_used": 1,
+    "metric": 2.82557555705375
   },
   {
     "expression": "neg(ARG3)",
@@ -45,9 +65,14 @@
     "metric": 12.236044713353207
   },
   {
-    "expression": "neg(neg(ARG3))",
+    "expression": "mul(add(x0, ARG3), 0.4461613683303176)",
+    "features_used": 2,
+    "metric": 0.6649972602130405
+  },
+  {
+    "expression": "mul(ARG2, 0.4154565682149487)",
     "features_used": 1,
-    "metric": 2.2738184304864952
+    "metric": 1.5126802585643375
   },
   {
     "expression": "neg(ARG3)",
