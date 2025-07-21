@@ -3,13 +3,13 @@ Running on dataset: Diabetes
 
 Top GP Models:
 Model 1:
-  Expression: add(sub(0.7141087139670903, ARG6), sub(sub(0.7850814784034406, ARG4), neg(ARG1)))
-  Features used: 3
+  Expression: sub(sub(ARG4, -0.5467496134784091), sub(ARG6, add(add(sub(ARG8, ARG0), add(sub(ARG4, -0.5467496134784091), ARG9)), add(ARG4, ARG3))))
+  Features used: 6
 Model 2:
-  Expression: neg(neg(sub(ARG9, -0.9634898284031064)))
+  Expression: neg(sub(ARG4, 0.7655054936999734))
   Features used: 1
 Model 3:
-  Expression: neg(sub(ARG1, 0.9003298957815062))
+  Expression: sub(ARG2, -0.5467496134784091)
   Features used: 1
 
 Hypothesis Evaluation for Diabetes:
@@ -18,18 +18,18 @@ Hypothesis Evaluation for Diabetes:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: MSE = 6506.5491
-  Random Forest: MSE = 3365.9377
+  Decision Tree: MSE = 6743.9611
+  Random Forest: MSE = 3476.8037
   Linear Regression: MSE = 2993.0813
 
 Running on dataset: California
 
 Top GP Models:
 Model 1:
-  Expression: add(add(neg(x0), sub(x0, -0.9349126537203165)), ARG3)
+  Expression: mul(ARG0, neg(-0.3485823673125823))
   Features used: 1
 Model 2:
-  Expression: add(ARG3, ARG3)
+  Expression: add(0.8509036698360588, ARG3)
   Features used: 1
 Model 3:
   Expression: neg(ARG3)
@@ -41,8 +41,8 @@ Hypothesis Evaluation for California:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: MSE = 0.6424
-  Random Forest: MSE = 0.3056
+  Decision Tree: MSE = 0.6284
+  Random Forest: MSE = 0.3113
   Linear Regression: MSE = 0.5494
 
 Running on dataset: Iris
@@ -52,7 +52,7 @@ Model 1:
   Expression: neg(ARG1)
   Features used: 1
 Model 2:
-  Expression: neg(ARG3)
+  Expression: neg(ARG0)
   Features used: 1
 Model 3:
   Expression: neg(ARG2)
@@ -72,13 +72,13 @@ Running on dataset: Wine
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG9)
+  Expression: neg(ARG1)
   Features used: 1
 Model 2:
-  Expression: neg(ARG12)
+  Expression: neg(ARG10)
   Features used: 1
 Model 3:
-  Expression: neg(ARG11)
+  Expression: neg(ARG7)
   Features used: 1
 
 Hypothesis Evaluation for Wine:
@@ -87,21 +87,21 @@ Hypothesis Evaluation for Wine:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.8821
-  Random Forest: Accuracy = 0.9665
+  Decision Tree: Accuracy = 0.8876
+  Random Forest: Accuracy = 0.9776
   Logistic Regression: Accuracy = 0.9611
 
 Running on dataset: Digits
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG23)
+  Expression: neg(ARG63)
   Features used: 1
 Model 2:
-  Expression: neg(ARG16)
+  Expression: neg(ARG7)
   Features used: 1
 Model 3:
-  Expression: neg(ARG63)
+  Expression: neg(ARG47)
   Features used: 1
 
 Hypothesis Evaluation for Digits:
@@ -110,21 +110,21 @@ Hypothesis Evaluation for Digits:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.7724
-  Random Forest: Accuracy = 0.9433
+  Decision Tree: Accuracy = 0.7819
+  Random Forest: Accuracy = 0.9382
   Logistic Regression: Accuracy = 0.9143
 
 Running on dataset: BreastCancer
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG26)
+  Expression: neg(ARG16)
   Features used: 1
 Model 2:
-  Expression: neg(ARG15)
+  Expression: neg(ARG25)
   Features used: 1
 Model 3:
-  Expression: neg(ARG7)
+  Expression: neg(ARG3)
   Features used: 1
 
 Hypothesis Evaluation for BreastCancer:
@@ -133,6 +133,6 @@ Hypothesis Evaluation for BreastCancer:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.9103
-  Random Forest: Accuracy = 0.9667
+  Decision Tree: Accuracy = 0.9191
+  Random Forest: Accuracy = 0.9631
   Logistic Regression: Accuracy = 0.9526
