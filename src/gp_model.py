@@ -20,7 +20,6 @@ class GeneticProgrammingModel:
         self.pset.addPrimitive(operator.mul, 2)                     #Add binary multiplication
         self.pset.addPrimitive(operator.neg, 1)                     #Add unary negation    
         self.pset.addEphemeralConstant("rand101", functools.partial(random.uniform, -1, 1))         #Random constant in [-1, 1]
-        self.pset.renameArguments(ARG0='x0')                        #Rename the first argument to 'x0'
 
     def run(self, X, y):
         self.pset = gp.PrimitiveSet("MAIN", X.shape[1])             #Set arity equal to number of input features
