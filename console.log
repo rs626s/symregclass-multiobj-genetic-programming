@@ -3,13 +3,13 @@ Running on dataset: Diabetes
 
 Top GP Models:
 Model 1:
-  Expression: neg(sub(sub(-0.98282911772935, ARG9), add(ARG5, ARG5)))
+  Expression: add(sub(0.7141087139670903, ARG6), sub(sub(0.7850814784034406, ARG4), neg(ARG1)))
   Features used: 3
 Model 2:
-  Expression: add(ARG3, add(0.25894689036885277, add(ARG3, 0.25894689036885277)))
-  Features used: 2
+  Expression: neg(neg(sub(ARG9, -0.9634898284031064)))
+  Features used: 1
 Model 3:
-  Expression: neg(add(-0.31630021778575257, ARG2))
+  Expression: neg(sub(ARG1, 0.9003298957815062))
   Features used: 1
 
 Hypothesis Evaluation for Diabetes:
@@ -18,21 +18,21 @@ Hypothesis Evaluation for Diabetes:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: MSE = 6490.2912
-  Random Forest: MSE = 3313.0366
+  Decision Tree: MSE = 6506.5491
+  Random Forest: MSE = 3365.9377
   Linear Regression: MSE = 2993.0813
 
 Running on dataset: California
 
 Top GP Models:
 Model 1:
-  Expression: add(add(neg(ARG7), sub(ARG7, -0.9921151296833552)), ARG3)
-  Features used: 3
+  Expression: add(add(neg(x0), sub(x0, -0.9349126537203165)), ARG3)
+  Features used: 1
 Model 2:
-  Expression: add(neg(-0.8919151323242407), ARG3)
+  Expression: add(ARG3, ARG3)
   Features used: 1
 Model 3:
-  Expression: mul(ARG2, 0.30013507194313394)
+  Expression: neg(ARG3)
   Features used: 1
 
 Hypothesis Evaluation for California:
@@ -41,18 +41,18 @@ Hypothesis Evaluation for California:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: MSE = 0.6377
-  Random Forest: MSE = 0.3098
+  Decision Tree: MSE = 0.6424
+  Random Forest: MSE = 0.3056
   Linear Regression: MSE = 0.5494
 
 Running on dataset: Iris
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG3)
+  Expression: neg(ARG1)
   Features used: 1
 Model 2:
-  Expression: neg(ARG1)
+  Expression: neg(ARG3)
   Features used: 1
 Model 3:
   Expression: neg(ARG2)
@@ -64,7 +64,7 @@ Hypothesis Evaluation for Iris:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.9667
+  Decision Tree: Accuracy = 0.9600
   Random Forest: Accuracy = 0.9667
   Logistic Regression: Accuracy = 0.9733
 
@@ -72,13 +72,13 @@ Running on dataset: Wine
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG4)
+  Expression: neg(ARG9)
   Features used: 1
 Model 2:
-  Expression: neg(ARG2)
+  Expression: neg(ARG12)
   Features used: 1
 Model 3:
-  Expression: neg(ARG3)
+  Expression: neg(ARG11)
   Features used: 1
 
 Hypothesis Evaluation for Wine:
@@ -87,21 +87,21 @@ Hypothesis Evaluation for Wine:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.8765
-  Random Forest: Accuracy = 0.9721
+  Decision Tree: Accuracy = 0.8821
+  Random Forest: Accuracy = 0.9665
   Logistic Regression: Accuracy = 0.9611
 
 Running on dataset: Digits
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG24)
+  Expression: neg(ARG23)
   Features used: 1
 Model 2:
-  Expression: neg(ARG56)
+  Expression: neg(ARG16)
   Features used: 1
 Model 3:
-  Expression: neg(ARG48)
+  Expression: neg(ARG63)
   Features used: 1
 
 Hypothesis Evaluation for Digits:
@@ -110,21 +110,21 @@ Hypothesis Evaluation for Digits:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.7891
-  Random Forest: Accuracy = 0.9405
+  Decision Tree: Accuracy = 0.7724
+  Random Forest: Accuracy = 0.9433
   Logistic Regression: Accuracy = 0.9143
 
 Running on dataset: BreastCancer
 
 Top GP Models:
 Model 1:
-  Expression: neg(ARG20)
+  Expression: neg(ARG26)
   Features used: 1
 Model 2:
-  Expression: neg(ARG1)
+  Expression: neg(ARG15)
   Features used: 1
 Model 3:
-  Expression: neg(ARG16)
+  Expression: neg(ARG7)
   Features used: 1
 
 Hypothesis Evaluation for BreastCancer:
@@ -133,6 +133,6 @@ Hypothesis Evaluation for BreastCancer:
   Hypothesis Not Supported: One or more conditions failed.
 
 Baseline comparisons:
-  Decision Tree: Accuracy = 0.9226
-  Random Forest: Accuracy = 0.9614
+  Decision Tree: Accuracy = 0.9103
+  Random Forest: Accuracy = 0.9667
   Logistic Regression: Accuracy = 0.9526
