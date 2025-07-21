@@ -1,23 +1,38 @@
 [
   {
-    "expression": "sub(sub(ARG8, -0.8164353140466194), add(ARG6, sub(-0.8234889233481149, ARG7)))",
-    "features_used": 3,
-    "metric": 26065.678941132133
+    "expression": "add(sub(ARG2, -0.6207224069999884), sub(ARG2, -0.6207224069999884))",
+    "features_used": 1,
+    "metric": 26185.02614553329
   },
   {
-    "expression": "neg(add(-0.8164353140466194, sub(-0.8234889233481149, ARG7)))",
+    "expression": "add(ARG2, sub(sub(ARG2, -0.6207224069999884), -0.6207224069999884))",
     "features_used": 1,
-    "metric": 26070.493235640697
+    "metric": 26185.02614553329
   },
   {
-    "expression": "sub(sub(ARG6, -0.6129422972504797), -0.8234889233481149)",
+    "expression": "add(0.48296862735800206, sub(ARG2, -0.6207224069999884))",
     "features_used": 1,
-    "metric": 26133.871131127722
+    "metric": 26226.442486229855
   },
   {
-    "expression": "sub(ARG3, -0.8164353140466194)",
+    "expression": "add(sub(ARG2, -0.6207224069999884), 0.48296862735800206)",
     "features_used": 1,
-    "metric": 26309.90098614494
+    "metric": 26226.442486229855
+  },
+  {
+    "expression": "neg(sub(-0.9810353641126652, ARG8))",
+    "features_used": 1,
+    "metric": 26260.721245126337
+  },
+  {
+    "expression": "add(ARG2, 0.48296862735800206)",
+    "features_used": 1,
+    "metric": 26406.438123771884
+  },
+  {
+    "expression": "add(0.48296862735800206, ARG2)",
+    "features_used": 1,
+    "metric": 26406.438123771884
   },
   {
     "expression": "neg(ARG6)",
@@ -25,19 +40,19 @@
     "metric": 26546.584641047404
   },
   {
-    "expression": "add(add(ARG7, neg(-0.757648551917522)), neg(-0.599596894540827))",
+    "expression": "sub(neg(-0.8753018459554958), sub(ARG1, neg(-0.8753018459554958)))",
     "features_used": 1,
-    "metric": 32199.94800193171
+    "metric": 32077.135538602055
   },
   {
-    "expression": "sub(0.9016776858099536, sub(ARG6, x0))",
-    "features_used": 2,
-    "metric": 32343.716525832933
+    "expression": "sub(ARG2, sub(-0.2685541384515242, neg(-0.8753018459554958)))",
+    "features_used": 1,
+    "metric": 32268.20825301847
   },
   {
-    "expression": "sub(0.9016776858099536, ARG6)",
+    "expression": "sub(ARG2, -0.8753018459554958)",
     "features_used": 1,
-    "metric": 32346.33791600454
+    "metric": 32354.94307381488
   },
   {
     "expression": "neg(ARG6)",
@@ -45,39 +60,49 @@
     "metric": 32638.547166113112
   },
   {
-    "expression": "add(0.9734665112239549, add(ARG4, 0.9280425234361493))",
+    "expression": "sub(sub(0.47650113366263613, neg(0.8111540161720905)), add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
     "features_used": 1,
-    "metric": 30260.516156776474
+    "metric": 29945.420242768767
   },
   {
-    "expression": "add(0.9734665112239549, ARG7)",
+    "expression": "sub(0.7149112278336884, add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
     "features_used": 1,
-    "metric": 30552.058624448207
+    "metric": 30125.05491361965
   },
   {
-    "expression": "neg(ARG6)",
+    "expression": "neg(add(add(ARG1, neg(0.8111540161720905)), neg(0.8111540161720905)))",
     "features_used": 1,
-    "metric": 30860.73050587
+    "metric": 30350.19931548814
   },
   {
-    "expression": "sub(neg(sub(neg(0.9252579295811938), add(0.8629456560061277, 0.8629456560061277))), ARG4)",
+    "expression": "sub(sub(neg(-0.534881484186656), ARG1), neg(0.8111540161720905))",
     "features_used": 1,
-    "metric": 29362.778718867234
+    "metric": 30437.47865951541
   },
   {
-    "expression": "sub(neg(sub(ARG6, add(0.8629456560061277, 0.8087530101992921))), ARG4)",
-    "features_used": 2,
-    "metric": 29653.09761042496
+    "expression": "sub(sub(0.47650113366263613, neg(0.8111540161720905)), ARG1)",
+    "features_used": 1,
+    "metric": 30455.941574521014
   },
   {
-    "expression": "add(sub(0.8168574014527656, ARG9), 0.8629456560061277)",
+    "expression": "sub(ARG1, neg(0.8111540161720905))",
     "features_used": 1,
-    "metric": 29658.177343903997
+    "metric": 30607.211207193242
   },
   {
-    "expression": "add(ARG8, 0.9252579295811938)",
+    "expression": "add(ARG7, 0.7149112278336884)",
     "features_used": 1,
-    "metric": 29879.8277585178
+    "metric": 30634.069181530896
+  },
+  {
+    "expression": "neg(ARG1)",
+    "features_used": 1,
+    "metric": 30864.89859382532
+  },
+  {
+    "expression": "add(ARG7, 0.9555463010983893)",
+    "features_used": 1,
+    "metric": 29869.590937932782
   },
   {
     "expression": "neg(ARG6)",
@@ -85,29 +110,24 @@
     "metric": 30161.84223635509
   },
   {
-    "expression": "add(neg(-0.5114355132540132), add(sub(0.8797195848199821, -0.9559168495629766), ARG4))",
+    "expression": "sub(neg(add(-0.7441999310290233, add(-0.7441999310290233, ARG6))), -0.7441999310290233)",
     "features_used": 1,
-    "metric": 24483.184107199995
+    "metric": 24519.029495277442
   },
   {
-    "expression": "add(sub(add(ARG2, ARG2), -0.9559168495629766), 0.8797195848199821)",
-    "features_used": 2,
-    "metric": 24620.451986684373
+    "expression": "neg(add(-0.7441999310290233, add(-0.7441999310290233, ARG6)))",
+    "features_used": 1,
+    "metric": 24724.383880111258
   },
   {
-    "expression": "add(sub(ARG2, -0.9559168495629766), 0.8797195848199821)",
+    "expression": "sub(ARG6, -0.7441999310290233)",
     "features_used": 1,
-    "metric": 24623.605718360457
+    "metric": 24927.465623387274
   },
   {
-    "expression": "add(0.8797195848199821, ARG2)",
+    "expression": "neg(add(-0.7441999310290233, ARG6))",
     "features_used": 1,
-    "metric": 24888.323640873816
-  },
-  {
-    "expression": "add(ARG2, 0.8797195848199821)",
-    "features_used": 1,
-    "metric": 24888.323640873816
+    "metric": 24930.84593201976
   },
   {
     "expression": "neg(ARG6)",
